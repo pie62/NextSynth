@@ -1,0 +1,3 @@
+[submodule "FluidSynth"]
+	path = FluidSynth
+	url = https://github.com/pie62/FluidSynth-Builds-Windows.git
