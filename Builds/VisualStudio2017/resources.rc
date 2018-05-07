@@ -13,6 +13,8 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
+      VALUE "CompanyName",  "pie62\0"
+      VALUE "LegalCopyright",  "Copyright \xc2\xa9 2018 pie62\0"
       VALUE "FileDescription",  "NextSynth\0"
       VALUE "FileVersion",  "1.0.0\0"
       VALUE "ProductName",  "NextSynth\0"
