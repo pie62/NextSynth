@@ -12,6 +12,8 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
+#include <fluidsynth.h>
+
 //==============================================================================
 /**
 */
@@ -56,6 +58,10 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+	//==============================================================================
+	fluid_synth_t * synth;
+	fluid_settings_t *settings;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NextSynthAudioProcessor)
 };

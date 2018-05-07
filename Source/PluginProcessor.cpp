@@ -24,10 +24,18 @@ NextSynthAudioProcessor::NextSynthAudioProcessor()
                        )
 #endif
 {
+	// init fluidsynth
+	const char *DRV[] = { NULL };
+	fluid_audio_driver_register(DRV);
+
+	settings = new_fluid_settings();
+	synth = new_fluid_synth(settings);
 }
 
 NextSynthAudioProcessor::~NextSynthAudioProcessor()
 {
+	delete_fluid_synth(synth);
+	delete_fluid_settings(settings);
 }
 
 //==============================================================================
