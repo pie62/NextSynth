@@ -5,7 +5,8 @@
               version="1.0.0" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
               pluginName="Next Synth" pluginDesc="Next Synth is VSTi synthesizer based on the SoundFont 2"
               pluginManufacturer="pie62" aaxIdentifier="com.pie62.NextSynth"
-              bundleIdentifier="com.pie62.NextSynth" companyCopyright="Copyright &#169; 2018 pie62">
+              bundleIdentifier="com.pie62.NextSynth" companyCopyright="Copyright &#169; 2018 pie62"
+              pluginFormats="buildAU,buildStandalone,buildVST">
   <MAINGROUP id="qg2Lvw" name="NextSynth">
     <GROUP id="{CF7C2DCC-D7C2-5A07-8AE3-65F735C62641}" name="Source">
       <FILE id="HsP6zR" name="PluginProcessor.cpp" compile="1" resource="0"
